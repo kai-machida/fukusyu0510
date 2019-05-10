@@ -19,17 +19,17 @@ namespace fukusyu0510
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.ForeColor = SystemColors.Control;
+            button1.ForeColor = SystemColors.ControlDark;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.BackColor = SystemColors.Control;
+            button2.BackColor = SystemColors.ControlDarkDark;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.Visible = true;
+            button3.Enabled = false;
         }
     }
 }
